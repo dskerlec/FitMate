@@ -3,11 +3,15 @@ import { CommonModule } from '@angular/common';
 
 import { WorkoutPlansRoutingModule } from './workout-plans-routing.module';
 import { WorkoutPlansComponent } from './workout-plans.component';
+import { FeaturedPlansComponent } from 'src/app/components/featured-plans/featured-plans.component';
+import { PlanComponent } from 'src/app/components/plan/plan.component';
 
 
 @NgModule({
   declarations: [
-    WorkoutPlansComponent
+    WorkoutPlansComponent,
+    FeaturedPlansComponent,
+    PlanComponent
   ],
   imports: [
     CommonModule,
